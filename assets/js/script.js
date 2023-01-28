@@ -20,7 +20,7 @@ function btnDesencritar() {
 function btnLimpiar() {
 	textArea.value = "";
 	mensaje.value = "";
-	mensaje.style.backgroundImage = "url('/img/Muñeco.png')";
+	mensaje.style.backgroundImage = "url('/img/muneco.png')";
 	document.getElementById("noMensaje").style.display = "block";
 	document.querySelector(".btn-copiar").style.display = "none";
 }
